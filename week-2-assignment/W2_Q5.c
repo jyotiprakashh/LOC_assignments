@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 int main()
 {
     int a[10][10], b[10][10], mul[10][10], r=2, c=2, i, j, k;
-    system("cls");
+    
     
     printf("enter the first matrix element=\n");
     for (i = 0; i < r; i++)
