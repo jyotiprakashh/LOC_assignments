@@ -1,7 +1,7 @@
 #include <stdio.h>
 int largestnum(int arr[], int n){
     
-  // storing the largest number to arr[0]
+ 
   for (int i = 1; i < n; ++i) {
     if (arr[0] < arr[i]) {
       arr[0] = arr[i];
